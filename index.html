@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Home | Forrosul</title>
+		<link rel="shortcut icon" href="assets/img/icone-aba.png">
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+		<link rel="stylesheet" href="./assets/css/missao/missao.css">
+		<link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+		<link rel="stylesheet" href="./assets/css/banner/banner.css">
+		<link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+		<link rel="stylesheet" href="./assets/css/mapa/mapa.css">
+		<link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+		<link rel="stylesheet" href="./assets/css/carousel/carousel.css">
+		<link rel="stylesheet" href="./assets/css/outrosprodutos/outrosprodutos.css">
+		<link rel="stylesheet" href="./assets/css/vantagem/vantagem.css">
+		<link rel="stylesheet" href="./assets/css/depoimento/depoimento.css">
+		<script src="https://kit.fontawesome.com/af32685e29.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header class="cabecalho">
+			<img class="cabecalho__img" src=./assets/img/logo-forrosul.png>
+			<nav>	
+				<ul class="menu__lista">
+					<li class="menu__item"><a class="menu__link" href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+					<li class="menu__item"><a class="menu__link" href="produtos-geral.html"><i class="fas fa fa-box"></i>  Produtos</a></li>
+					<li class="menu__item"><a class="menu__link" href="contato.html"><i class="fa fa-phone fa-flip-horizontal"></i>  Contato</a></li>
+				</ul>
+			</nav>	
+		</header>
+		<main>
+        <section class="outros-produtos">
+            <article class="carousel">
+                <button class="carousel__botao carousel__botao--anterior" data-anterior aria-label="Botão de voltar"></button>
+                <button class="carousel__botao carousel__botao--proximo" data-proximo aria-label="Botão de avançar"></button>
+                <ul class="carousel__lista-produtos" data-lista-produtos>
+                    <a href="produtos-standard.html" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="./assets/img/home-frisado.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="linha-home.html" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="./assets/img/home-vinilico.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                    <a href="produtos-premium.html" class="carousel__produto">
+                        <li class="carousel__imagem-container"><img src="./assets/img/home-liso.png" alt="" class="carousel__imagem"></li>
+                    </a>
+                </ul>
+                <div class="carousel__indicadores" data-navegacao>
+                    <button class="carousel__indicador carousel__indicador--ativo" data-indicador="0" aria-label="Slide 1"></button>
+                    <button class="carousel__indicador" data-indicador="1" aria-label="Slide 2"></button>
+                    <button class="carousel__indicador" data-indicador="2" aria-label="Slide 3"></button>
+                   
+                </div>
+            </article>
+        </section>
+
+
+       		<div class="vantagem">
+				<h2 class="vantagem__titulo">Benefícios</h2>
+				<h2 class="vantagem__subtitulo2">-Principais motivos para você utilizar painéis e forros de PVC nos ambientes de sua casa-</h2>
+				<ul class="vantagem__principal">
+					<li><i class='fas fa-toolbox fa-pull-left fa-3x fa-border espaco margin fa'></i> </li>
+					<li class="vantagem__conteudo"><h3 class="vantagem__subtitulo">Fácil Instalação</h3> <p class="vantagem__descricao">O PVC possui a maleabilidade perfeita para recorte ou fixação.</p> </li>
+
+					<li><i class='fas fa-paint-roller fa-pull-left fa-3x fa-border espaco'></i></li>
+					<li class="vantagem__conteudo"> <h3 class="vantagem__subtitulo">Dispensa Manutenção e Pintura</h3> <p class="vantagem__descricao">Um pano úmido já resolve o problema.</p> </li>
+
+					<li><i class='fas fa-tint fa-pull-left fa-3x fa-border espaco '></i></li>
+					<li class="vantagem__conteudo"> <h3 class="vantagem__subtitulo">100% resistente a umidade</h3> <p class="vantagem__descricao">O PVC não apodrece como a madeira e nem enferruja como o metal.</p> </li>
+
+					<li><i class='fas fa-recycle fa-pull-left fa-3x fa-border espaco margin'></i> </li>
+					<li class="vantagem__conteudo"><h3 class="vantagem__subtitulo">Reciclável</h3> <p class="vantagem__descricao">O painel decorativo de PVC pode ser moído para a confecção de novos produtos de plástico.</p> </li>
+
+					<li><i class='fas fa-bug fa-pull-left fa-3x fa-border espaco'></i></li>
+					<li class="vantagem__conteudo"> <h3 class="vantagem__subtitulo">Imune ao cupim e fungo</h3> <p class="vantagem__descricao">Produtos em PVC não são atrativos ao fungo e ao cupim.</p> </li>
+
+					<li><i class='fas fa-fire-extinguisher fa-pull-left fa-3x fa-border espaco'></i></li>
+					<li class="vantagem__conteudo"> <h3 class="vantagem__subtitulo">Não propaga fogo</h3> <p class="vantagem__descricao">Diferente do que muitos pensam, após submetido ao calor, o PVC contrai na área afetada.</p> </li>
+				</ul>
+			</div>
+                <div class="vantagem__piso">
+                	<img class="vantagem__img" src="./assets/img/desenho-tecnico-home.png">
+                	<div class="vantagem__pisodesc">
+                		<h2 class="vantagem__titupiso">Nossos Produtos</h2>
+                		<p>Todos os produtos são feitos com matéria prima de primeira linha em processos de produção modernos e seguros e passam por um rígido controle de qualidade.
+						Cada régua possui várias camadas com materiais e características diferentes que funcionam em conjunto para proporcionar ótimo desempenho térmico e acústico, além de durabilidade e resistência.
+						O piso vinílico consegue agregar as características estéticas da madeira, sem as desvantagens e a manutenção contínua exigidas de um material natural. O seu piso vinílico poderá durar por muitos anos mantendo as características e beleza intocáveis.</p>
+						<br><br>
+						<img src=./assets/img/selos-home.png>
+                	</div>
+                </div>
+
+			<h2 class="depoimento__titulo">Nossos Clientes</h2>
+	        <section class="depoimento">
+
+	        	<div class="depoimento__container">
+	        		<img class="depoimento__img" src="./assets/img/malu.jpg">
+	        		<div class="depoimento__sobre">
+		        		<p class="depoimento__descricao">"Entre tantos adjetivos, destaco a qualidade do produto, a agilidade na entrega, a flexibilidade nas negociações, a diversificação de produtos, os profissionais super atenciosos, desde a venda, até a entrega. Todos com a característica que não se encontra, o carinho com cada um de nós."</p>
+		        		<p class="depoimento__nome">Maria Luiza Kreusch - Arquiteta e Urbanista</p>
+	        		</div>
+	        	</div>
+
+	        </section>
+	        	<section class="depoimento">
+
+	        	<div class="depoimento__container2">
+	        		<img class="depoimento__img" src="./assets/img/foto-marya.jpg">
+	        		<div class="depoimento__sobre">
+		        		<p class="depoimento__descricao">"A Forrosul é uma empresa que nos transmite muita confiança pela qualidade em seus produtos e agilidade na entrega.O relacionamento sempre cordial e respeitoso com todas as pessoas que temos contato, desde os motoristas, até o pessoal do escritório."</p>
+		        		<h2 class="depoimento__nome">Maryá Floriano - Engenheira Civil</h2>
+	        		</div>
+	        	</div>
+	        	
+	        </section>
+
+	        <section class="mapa">
+				<h2 class="sobre__titulo">Localização</h2>
+				<p class="mapa__descricao">Nosso estabelecimento está localizado no coração da cidade</p>
+				<div class="mapa__conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8433.048948294656!2d-50.575754970470896!3d-27.292515852413352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3fcd72fad083f507!2sForrosul!5e0!3m2!1spt-BR!2sbr!4v1614987926466!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+
+			</section>	
+
+		<footer class="rodape">
+				<img class="rodape__img" src=./assets/img/logo-forrosul.png>
+				<div class="rodape__horario">
+
+					<p class="rodape__telefone"><i class="fab fa-whatsapp-square"> </i> (49) 9 8804-5603 | <i class="fab fas fa-envelope"></i> contato@forrosul.com.br</p>
+					<p class ="rodape__copyright"> &copy; Copyrigth Forrosul 2021</p>
+					
+
+				</div>
+				<nav class="rodape__rede">	
+					<h3 class="rodape__redetitulo">Siga nossas redes socias</h3>
+					<ul  class="rodape__item">
+						<li><a class="rodape__link" href="https://www.facebook.com/ForroSul-Forro-de-PVC-102511717990022"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+						<li><a class="rodape__link" href="https://www.instagram.com/forrosulpvc/"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+					</ul>
+					<p class ="rodape__desenvolvido"> Desenvolvido por Flow-Stack | <i class="fab fa-whatsapp-square"> </i> (47) 9 9788-3984 </p>
+				</nav>	
+		</footer>
+		<script src="assets/js/index.js" type="module"></script>
+	</body> 
+</html>

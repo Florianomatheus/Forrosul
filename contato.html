@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Forrosul - Produtos</title>
+		<link rel="shortcut icon" href="assets/img/icone-aba.png">
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+		<link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+		<link rel="stylesheet" href="./assets/css/mapa/mapa.css">
+		<link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+		<link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+		<link rel="stylesheet" href="./assets/css/produto/produto.css">
+		<link rel="stylesheet" href="./assets/css/vantagem/vantagem.css">
+		<link rel="stylesheet" href="./assets/css/top.css">
+		<link rel="stylesheet" href="./assets/css/contato/contato.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/af32685e29.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+        <header class="cabecalho">
+            <img class="cabecalho__img" src=./assets/img/logo-forrosul.png>
+            <nav>   
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="produtos-geral.html"><i class="fas fa fa-box"></i>  Produtos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contato.html"><i class="fa fa-phone fa-flip-horizontal"></i>  Contato</a></li>
+                </ul>
+            </nav>  
+        </header>
+
+		<main class="contato">
+			<div class="container">
+				<h1 class="contato__titudes">Fale com a<br> <span class="bold">Forrosul</span></h1>
+				<p class="contato__descricao">Você está tendo a oportunidade de adquirir um dos melhores produtos do mercado, com a instalação dos melhores profissionais e com insumos da melhor qualidade.</p>
+				<p class="contato__descricao">Se preferir pode entrar em contato diretamente pelo WhatsApp <span class="bold">(49) 9 8804-5603</span>. Que iremos lhe atender o mais rápido possível</p>
+			</div>
+			<form class="contato__formulario">
+				<h1 class="contato__titulo">Nome e sobrenome</h1>
+				<input class="contato__input" type="text" id="nomesobrenome" required>
+
+				<h1 class="contato__titulo"> Email </h1>
+				<input class="contato__input" type="email" id="email" required placeholder="seuemail@gmail.com">
+
+				<h2 class="contato__titulo">Telefone</h2>
+				<input class="contato__input" type="tel" name="telefone" required placeholder="(XX) 9 9999-9999">
+
+				<h1 class="contato__titulo">Mensagem</h1>
+				<textarea class="contato__input" cols="72" rows="10"id="mensagem"></textarea>
+				<input type="submit" value="Enviar" class="contato__botao">
+
+			</form>
+
+
+		</main>
+
+			<section class="mapa">
+				<h2 class="sobre__titulo">Localização</h2>
+				<p class="mapa__descricao">Nosso estabelecimento está localizado no coração da cidade</p>
+				<div class="mapa__conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8433.048948294656!2d-50.575754970470896!3d-27.292515852413352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3fcd72fad083f507!2sForrosul!5e0!3m2!1spt-BR!2sbr!4v1614987926466!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+
+			</section>	
+        <footer class="rodape">
+                <img class="rodape__img" src=./assets/img/logo-forrosul.png>
+                <div class="rodape__horario">
+
+                    <p class="rodape__telefone"><i class="fab fa-whatsapp-square"> </i> (49) 9 8804-5603 | <i class="fab fas fa-envelope"></i> contato@forrosul.com.br</p>
+                    <p class ="rodape__copyright"> &copy; Copyrigth Forrosul 2021</p>
+                    
+
+                </div>
+                <nav class="rodape__rede">  
+                    <h3 class="rodape__redetitulo">Siga nossas redes socias</h3>
+                    <ul  class="rodape__item">
+                        <li><a class="rodape__link" href="https://www.facebook.com/ForroSul-Forro-de-PVC-102511717990022"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                        <li><a class="rodape__link" href="https://www.instagram.com/forrosulpvc/"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                    </ul>
+                    <p class ="rodape__desenvolvido"> Desenvolvido por Flow-Stack | <i class="fab fa-whatsapp-square"> </i> (47) 9 9788-3984 </p>
+                </nav>  
+        </footer>
+	</body> 
+</html>
